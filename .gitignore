@@ -1,0 +1,100 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled libraries
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Preprocessor output
+*.i
+*.ii
+
+# Assembly output
+*.s
+
+# Build directories
+build/
+dist/
+out/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Autotools
+.deps/
+.libs/
+autom4te.cache/
+aclocal.m4
+configure
+config.log
+config.status
+Makefile.in
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - CLion / JetBrains
+.idea/
+*.iml
+cmake-build-*/
+
+# IDE - Eclipse
+.cproject
+.project
+.settings/
+
+# IDE - Visual Studio
+*.vcxproj
+*.sln
+*.suo
+*.user
+ipch/
+*.aps
+
+# Valgrind / profiling
+callgrind.out.*
+massif.out.*
+gmon.out
+
+# Core dumps
+core
+core.*
+vgcore.*
+
+# Dependency / package managers
+.conan/
+conanbuildinfo.*
+conaninfo.txt
+
+# Environment & secrets
+.env
+*.secret
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
