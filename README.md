@@ -218,9 +218,7 @@ sudo ./ThermoFlood -di 192.168.1.100 -dm aa:bb:cc:11:22:33 -dp 443 \
 
 3. **Modern Mitigation** — Many modern firewalls and ISPs employ SYN Cookies or ingress filtering (BCP 38), which can detect and drop spoofed packets or absorb the flood's impact.
 
-4. **Platform Support** — Tested on Debian-based Linux (Pop!_OS). `AF_PACKET` is Linux-specific and will not compile on macOS or BSD without significant changes.
-
-5. **Packet Count Division** — The total packet count is divided evenly across threads. If `-c` is not evenly divisible by `-t`, the remainder packets are not sent. For precise counts, use a `-c` value divisible by your thread count.
+4. **Platform Support** — Tested on Arch Linux `AF_PACKET` is Linux-specific and will not compile on macOS or BSD without significant changes.
 
 ---
 
