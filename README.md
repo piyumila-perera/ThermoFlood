@@ -64,7 +64,7 @@ Version 2 is a significant rewrite over v1. Here is a summary of every major cha
 | Socket Layer | Layer 3 (`IPPROTO_RAW`) | **Layer 2 (`AF_PACKET`)** |
 | Ethernet Header | Kernel-managed | **Manually constructed** |
 | MAC Spoofing | ✗ | **✓ Full source MAC spoofing** |
-| Sequence Numbers | Static | **Cryptographically random** |
+| Sequence Numbers | Static | **Randomized** |
 | Source Port | Fixed | **Randomized (1024–65535)** |
 | TTL | Fixed | **Randomized (64–127)** |
 | IP ID | Fixed | **Randomized** |
